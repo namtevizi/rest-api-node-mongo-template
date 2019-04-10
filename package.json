@@ -1,0 +1,58 @@
+{
+  "name": "rest-api-node-mongo-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "build": "NODE_ENV=development webpack --config webpack.server.js --mode=development -w",
+    "start": "node -r esm server/index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namtevizi/rest-api-node-mongo-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namtevizi/rest-api-node-mongo-template/issues"
+  },
+  "homepage": "https://github.com/namtevizi/rest-api-node-mongo-template#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "esm": "^3.2.18",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "formidable": "^1.2.1",
+    "fs-extra": "^7.0.1",
+    "handlebars": "^4.1.1",
+    "helmet": "^3.16.0",
+    "jsonwebtoken": "^8.5.1",
+    "lru-cache": "^5.1.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.1.13",
+    "node-fetch": "^2.3.0",
+    "nodemailer": "^5.1.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "query-string": "^6.4.0",
+    "response-time": "^2.3.2",
+    "slug": "^1.0.0",
+    "stripe": "^6.28.0",
+    "ua-parser-js": "^0.7.19",
+    "winston": "^3.2.1",
+    "ws": "^6.2.0"
+  }
+}
